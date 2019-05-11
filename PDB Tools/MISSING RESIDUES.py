@@ -7,7 +7,8 @@ with open ("F:/FINAL PROJECT/GROMIHA DATASET/PDB FILES/HIGH/1ATN.pdb") as data:
 n= []
 l=[]
 t=[]
-for t in p: 
-	k= t.split()
-	if k[0] == 'HETATM':
+for m in p:
+	k = m.split()
+	if k[0] == 'REMARK': 
+		if k[1] == '465':
 			print(k)
