@@ -9,5 +9,5 @@ l=[]
 t=[]
 for m in p:
 	k = m.split()
-	if k[0] == 'SHEET': 
+	if k[0] == 'HELIX': 
 		print(k)
