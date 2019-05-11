@@ -9,6 +9,6 @@ l=[]
 t=[]
 for t in p: 
 	k= t.split()
-	if k[0] == 'REMARK':
-		if k[1] == '465':
+	if k[0] == 'ATOM':
+		if k[4] == 'A':
 			print(k)
