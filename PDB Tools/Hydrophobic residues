@@ -1,0 +1,17 @@
+import os
+import pandas as pd
+
+with open ("F:/FINAL PROJECT/GROMIHA DATASET/PDB FILES/HIGH/1atn.pdb") as data:
+	p = data.read().splitlines()
+g= set(p)
+
+
+for t in g: 
+	k=t.split()
+	if k[0] == 'ATOM':
+		if k[3] == 'ILE':
+			if k[3] == 'ALA':
+				if k[3] == 'GLY': 
+					if k[3] == 'PHE':
+						if k[3] == 'MET':
+							print(k)
