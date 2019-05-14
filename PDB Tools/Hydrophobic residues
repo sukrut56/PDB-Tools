@@ -1,6 +1,6 @@
 import os
 
-with open ("F:/FINAL PROJECT/GROMIHA DATASET/PDB FILES/HIGH/1atn.pdb") as data:
+with open ("F:/.pdb") as data:
 	p = data.read().splitlines()
 g= set(p)
 
