@@ -13,4 +13,10 @@ for t in g:
 				if k[3] == 'GLY': 
 					if k[3] == 'PHE':
 						if k[3] == 'MET':
-							print(k)
+						
+
+
+with open("example.pdb", "w") as f:
+	for u in t:
+		f.writelines(u)
+f.close()
