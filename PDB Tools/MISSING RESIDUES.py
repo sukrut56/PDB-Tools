@@ -7,4 +7,9 @@ for m in p:
 	k = m.split()
 	if k[0] == 'REMARK': 
 		if k[1] == '465':
-			print(k)
+			
+
+with open("example.pdb", "w") as f:
+	for u in t:
+		f.writelines(u)
+f.close()
