@@ -6,4 +6,8 @@ with open ("F:/.pdb") as data:
 for m in p:
 	k = m.split()
 	if k[0] == 'HELIX': 
-		print(k)
+
+with open("example.pdb", "w") as f:
+	for u in t:
+		f.writelines(m)
+f.close()
