@@ -6,4 +6,9 @@ with open ("F:/.pdb") as data:
 for t in p: 
 	k= t.split()
 	if k[0] == 'SHEET': 
-		print(k)
+
+
+with open("example.pdb", "w") as f:
+	for u in t:
+		f.writelines(u)
+f.close()
